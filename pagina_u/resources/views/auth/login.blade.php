@@ -39,10 +39,8 @@
                     <div class="form-group">
                         <input type="password" class="form-control form-control-lg" id="password" placeholder="Contraseña">
                     </div>
-                    @if (auth()->username == 221177973 && auth()->password == 13484862Sc )
 
-                    @endif
-                    <button type="button" class="btn btn-secondary btn-lg btn-block" id="login">Iniciar Sesión</button>
+                    <a type="button" href="{{'home'}}" class="btn btn-secondary btn-lg btn-block" id="login">Iniciar Sesión</a>
                 </form>
                 <ul class="list-group list-group-flush">
                     <li class="list-group-item"><a href="#" target="_blank">¿Olvidaste tu contraseña?</a></li>
