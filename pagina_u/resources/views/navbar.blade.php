@@ -12,14 +12,13 @@
       </tr></tbody>
     </table>   
     <div class="row">
-      <div style="background-color: #2A3964;font-family: Verdana; margin-left: 5px ; margin-top: 0px ; width: 160px ; height: 1000px;" > {{-- TODO EL SIDEBAR --}}
+      <div style="background-color: #2A3964;font-family: Verdana; margin-left: 5px ; margin-top: 0px ; width: 160px ; height: 1390px;" > {{-- TODO EL SIDEBAR --}}
         <br>
         <h4 style=" font-size: 18px ; color: #B8D8F8 ; text-align: center; margin-top: 10px">Consultas <br> Estudiantes</h4>
         <br>
-        {{-- <a style="background-color: #B8D8F8; color: #000066" class="btn btn-secondary" >Exportar PDF /a> --}}
-        <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="#">Datos Personales</a>
-        <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="#">Histórico</a>
-        <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="#">Avance Académico</a>
+        <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="{{ route('datospersonales') }}">Datos Personales</a>
+        <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="{{ route('historico') }}">Histórico</a>
+        <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="{{ route('avance_academico') }}">Avance Académico</a>
         <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="#">Boleta de Inscripción</a>
         <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="#">Malla Curricular</a>
         <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="#">Notas Semestrales</a>
@@ -38,7 +37,7 @@
         <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="#">Expociencia</a>
         <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="#">Form. Titulados</a>
         <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="#">Actividades DICiT</a>
-        <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="#">Salir</a>
+        <a style=" margin-left: 15px ; width: 138px ; background-color: #B8D8F8; color: #000066; display: block; font-size: 11px; font-weight: bold; margin-bottom: 25px; margin-top: -20px ; padding: 6px 8px; text-decoration: none;" href="{{ route('login') }}">Salir</a>
         {{-- <button class="btn btn-secondary" >Imprimir</button> --}}
       </div>
       <div style="margin-top: -5px ;width: 1350px">
