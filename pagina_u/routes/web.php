@@ -22,4 +22,4 @@ Route::get('/', function () {
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
-Route::get('datospersonales',[DatosController::class,'index'])->name('datospersonales')->middleware(['auth']);
+Route::get('datospersonales',[DatosController::class,'index'])->name('datospersonales');
