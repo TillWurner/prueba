@@ -24,3 +24,6 @@ Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
 Route::get('datospersonales',[DatosController::class,'index'])->name('datospersonales');
+Route::get('historico',[HistoricoController::class,'index'])->name('historico');
+Route::get('avance_academico',[HistoricoController::class,'avance'])->name('avance_academico');
+
