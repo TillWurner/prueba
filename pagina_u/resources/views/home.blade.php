@@ -13,6 +13,8 @@
                             {{ session('status') }}
                         </div>
                     @endif
+                    <a href="{{ route('datospersonales') }}" type="button"
+                        class="btn btn-primary">Datos personales</a>
 
                     {{ __('You are logged in!') }}
                 </div>
