@@ -4,6 +4,7 @@ use App\Http\Controllers\DatosController;
 use App\Http\Controllers\HistoricoController;
 use Illuminate\Support\Facades\Auth;
 use Illuminate\Support\Facades\Route;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
