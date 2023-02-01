@@ -1,7 +1,9 @@
 <?php
 
-use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DatosController;
+use App\Http\Controllers\HistoricoController;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Route;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -14,9 +16,11 @@ use Illuminate\Support\Facades\Auth;
 */
 
 Route::get('/', function () {
-    return view('navbar');
+    return view('antes_login');
 });
 
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('datospersonales',[DatosController::class,'index'])->name('datospersonales');
+Route::get('historico',[HistoricoController::class,'index'])->name('historico');
