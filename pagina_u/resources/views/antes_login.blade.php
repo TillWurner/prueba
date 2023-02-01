@@ -9,6 +9,7 @@
 <body>
     <a href="{{ route('datospersonales') }}">Datos personales</a>
     <a href="{{ route('historico') }}">Historico</a>
+    <a href="{{ route('avance_academico') }}">Avance academico</a>
 
 </body>
 </html>

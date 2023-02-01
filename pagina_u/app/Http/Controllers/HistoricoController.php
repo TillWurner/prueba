@@ -16,6 +16,11 @@ class HistoricoController extends Controller
         return view('historico');
     }
 
+    public function avance()
+    {
+        return view('avance_academico');
+    }
+
     /**
      * Show the form for creating a new resource.
      *
