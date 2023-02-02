@@ -17,7 +17,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('antes_login');
+    return view('welcome');
 });
 
 Auth::routes();
