@@ -16,7 +16,7 @@
     <div class="m-3" id="invoice">
         <div class="toolbar hidden-print">
             <div class="float-right">
-                <button id="printInvoice" class="btn btn-info"><i class="fa fa-print"></i> Imprimir</button>
+                <button id="printInvoice" class="btn btn-info"><i class="fa fa-print" onclick="imprimir()"></i> Imprimir</button>
             </div>
             <h4>Avance Académico</h4>
             <hr>
@@ -132,9 +132,15 @@
         });
     </script>
 
+    <script>
+            function imprimir() {
+                    window.print()
+                }
+    </script>
+
 
 </body>
 
 </html>
-    
+
 @endsection
