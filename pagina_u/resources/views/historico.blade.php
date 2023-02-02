@@ -30,7 +30,7 @@
                             <div class="address">CORDOVA PEDRAZAS CARLOS DIEGO</div>
                         </div>
                         <div class="col invoice-details">
-                            <h1 class="invoice-id">P.P.A.C. 60</h1>
+                            <h1 class="invoice-id">P.P.A.C. 61</h1>
                             <div class="address">(118-5) INGENIER═A ELECTROMEC┴NICA</div>
                         </div>
                     </div>
@@ -123,6 +123,35 @@
                                 <td class="text-left">MEC233 - TERMODINAMICA I</td>
                                 <td class="text-left">2-2022</td>
                                 <td class="unit bg-success text-white">82</td>
+                            </tr>
+{{-- ---------------------------------------------------- --}}
+                            <tr>
+                                <td class="text-left">2</td>
+                                <td class="text-left">118 - 5</td>
+                                <td class="text-left">MAT103 - ALGEBRA II</td>
+                                <td class="text-left">2-2022</td>
+                                <td class="unit bg-success text-white">54</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">2</td>
+                                <td class="text-left">118 - 5</td>
+                                <td class="text-left">FIS102 - FISICA II</td>
+                                <td class="text-left">2-2022</td>
+                                <td class="unit bg-success text-white">73</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">2</td>
+                                <td class="text-left">118 - 5</td>
+                                <td class="text-left">MAT102 - CALCULO II</td>
+                                <td class="text-left">2-2022</td>
+                                <td class="unit bg-success text-white">61</td>
+                            </tr>
+                            <tr>
+                                <td class="text-left">2</td>
+                                <td class="text-left">118 - 5</td>
+                                <td class="text-left">MAT270 - PROBABILIDAD Y ESTADISTICA</td>
+                                <td class="text-left">2-2022</td>
+                                <td class="unit bg-success text-white">71</td>
                             </tr>
                         </tbody>
                     </table>
