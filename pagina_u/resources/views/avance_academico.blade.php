@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
-
+@extends('navbar')
+@section('content')
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -8,14 +9,14 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css">
-    <link rel="stylesheet" type="text/css" href="/css/ticket.css">
+    <link rel="stylesheet" type="text/css" href={{ asset("/css/ticket.css") }}> >
 </head>
 
 <body>
     <div class="m-3" id="invoice">
         <div class="toolbar hidden-print">
             <div class="float-right">
-                <button id="printInvoice" class="btn btn-info"><i class="fa fa-print"></i> Imprimir</button>
+                <button id="printInvoice" class="btn btn-info"><i class="fa fa-print" onclick="imprimir()"></i> Imprimir</button>
             </div>
             <h4>Avance Académico</h4>
             <hr>
@@ -131,7 +132,15 @@
         });
     </script>
 
+    <script>
+            function imprimir() {
+                    window.print()
+                }
+    </script>
+
 
 </body>
 
 </html>
+
+@endsection

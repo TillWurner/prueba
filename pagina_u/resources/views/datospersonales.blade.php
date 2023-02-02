@@ -1,5 +1,7 @@
+@extends('navbar')
+@section('content')
 <!DOCTYPE html>
-<html lang="es"><head>
+<head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -7,8 +9,7 @@
 
     <title>Datos PersonaleDatos Personales</title>
 </head>
-<body class="" style="">
-
+<body>
     <div class="m-3">
         <h4>Datos Personales</h4>
         <hr>
@@ -151,7 +152,9 @@
             $('#ad').modal();
         });
     </script>
+    
+</body>
 
-
-
-</body></html>
+       
+    
+@endsection
